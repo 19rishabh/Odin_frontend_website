@@ -1,5 +1,6 @@
 
-body{
+
+    body{
     font-family: roboto,'sans-serif';
     display: flex;
     flex-direction: column;
@@ -133,7 +134,7 @@ button{
     background-color: #3882f6;
     display: flex;
     height:80px;
-    margin:30px;
+    margin:50px;
     width: 1050px;
 
 }
@@ -163,11 +164,22 @@ button{
 
 .l{
     flex:2;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    color:white;
 }
 .r{
-    justify-self: flex-start;
+  
     align-items: center;
+    display: flex;
     flex:1;
+    align-items: center;
+    justify-content: flex-start;
+}
+.r button{
+    border:1px solid  white;
+    width:80px;
 }
 .info{
     display: flex;
